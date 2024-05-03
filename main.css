@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    background-color: #00215E;
+   
+}
+
+h1{
+    color: #FC4100;
+}
+
+.admin{
+
+    width: 550px;
+    padding: 10px;
+    border-radius: .4rem;
+    margin: 10px auto;
+}
+
+.admin h1{
+    text-align: center;
+    font-size: 45px;
+}
+
+.admin input{
+    width: 100%;
+    padding: 10px 5px;
+    outline: none;
+    border-radius: .3rem;
+    border: 1px solid;
+    margin: 10px 0;
+}
+
+.admin input, .admin textarea{
+    font-size: 18px;
+}
+.admin textarea{
+    resize: none;
+    width: 100%;
+    border-radius: .3rem;
+    outline: none;
+    padding: 10px 5px;
+    border: 1px solid;
+}
+
+.admin button{
+    display: block;
+    margin: 10px auto;
+    width: 25%;
+    font-size: 18px;
+    border-radius: .4rem;
+    border: none;
+    padding: 10px 5px;
+    color: #00215E;
+    font-weight: 600;
+    background-color: #FFC55A;
+    cursor: pointer;
+    transition: background-color .3s ease;
+ }
+ .admin button:hover{
+    background-color: #FC4100;
+ }
+
+ ::placeholder{
+    font-size: 15px;
+    font-style: italic;
+ }
+
+
+ /* Chat box section */
+.chat{
+    margin: 10px auto;
+    width: 350px;
+    border: 2px solid rgb(48, 8, 8);
+    padding: 5px;
+    border-radius: .5rem;
+}
+ .chat-box{
+    background-color: #ffc55a17;
+    padding: 5px;
+    border-radius: .3rem;
+ }
+
+ .chat_boxes{
+    border-radius: .4rem;
+    padding: 5px;
+    margin: 5px;
+    width: 100%;
+ }
+
+.chat_boxes p{
+font-weight: 500;
+margin: 10px 0;
+padding:  10px;
+
+}
+.heading{
+    color: #fff;
+    text-align: center;
+}
+
+.chat_boxes p:nth-child(odd){
+    
+    color: #03AED2;
+    border-radius: .4rem;
+    text-align: left;
+}
+
+.chat_boxes p:nth-child(even){
+    color: #FC4100;
+    text-align: right;
+}
+
+.chat input{
+    width: 80%;
+    border: none;
+    padding: 10px 5px;
+    margin: 5px 0;
+    border-radius: .4rem;
+}
+ 

@@ -126,3 +126,9 @@ padding:  10px;
     border-radius: .4rem;
 }
  
+@media screen and (max-width:470px) {
+   .admin{
+    width: 100%;
+   } 
+    
+}
